@@ -13,6 +13,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "joi": "^17.13.3"
+    "express": "^4.21.1",
+    "joi": "^17.13.3",
+    "shortid": "^2.2.16"
   }
 }

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
     "express": "^4.21.1",
     "joi": "^17.13.3",
     "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0"
   }
 }
